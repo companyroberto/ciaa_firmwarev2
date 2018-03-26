@@ -1,0 +1,7 @@
+organization=ciaa_firmwarev2_r020_rcompany
+projectKey=ciaa_firmwarev2_r020_rcompany
+serverUrl=https://sonarcloud.io
+serverVersion=7.1.0.37735
+dashboardUrl=https://sonarcloud.io/dashboard/index/ciaa_firmwarev2_r020_rcompany
+ceTaskId=AWJfxcKxV4Tcj4EG2qeW
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWJfxcKxV4Tcj4EG2qeW

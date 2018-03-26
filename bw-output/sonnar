@@ -1,0 +1,115 @@
+tito@TitOMovilSW:~/git/firmware_v2$ sonar-scanner   -Dsonar.projectKey=ciaa_firmwarev2_r020_rcompany   -Dsonar.organization=ciaa_firmwarev2_r020_rcompany   -Dsonar.sources=.   -Dsonar.cfamily.build-wrapper-output=bw-output   -Dsonar.host.url=https://sonarcloud.io   -Dsonar.login=c34665c499065b6d55a4c98469ab96382b696cc6
+INFO: Scanner configuration file: /home/tito/ciaa-ide/sonar-scanner-3.1.0.1141-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarQube Scanner 3.1.0.1141
+INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
+INFO: Linux 4.4.0-116-generic amd64
+INFO: User cache: /home/tito/.sonar/cache
+
+INFO: SonarQube server 7.1.0
+INFO: Default locale: "es_ES", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=4722ms
+INFO: Server id: AWHW8ct9-T_TB3XqouNu
+INFO: User cache: /home/tito/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=623ms
+INFO: Load/download plugins
+INFO: Load/download plugins (done) | time=1202101ms
+INFO: Process project properties
+INFO: Load branch configuration
+INFO: Load branch configuration (done) | time=2ms
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=2379ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=1ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=511ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=24458ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=496ms
+INFO: Project key: ciaa_firmwarev2_r020_rcompany
+INFO: Organization key: ciaa_firmwarev2_r020_rcompany
+INFO: -------------  Scan ciaa_firmwarev2_r020_rcompany
+INFO: Load server rules
+INFO: Load server rules (done) | time=13090ms
+INFO: Base dir: /home/tito/git/firmware_v2
+INFO: Working dir: /home/tito/git/firmware_v2/.scannerwork
+INFO: Source paths: .
+INFO: Source encoding: UTF-8, default locale: es_ES
+INFO: Index files
+INFO: 1965 files indexed
+INFO: Quality profile for c: Sonar way
+INFO: Quality profile for php: Sonar way
+INFO: Quality profile for py: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: 1 source files to be analyzed
+INFO: 1/1 source files have been analyzed
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=121ms
+INFO: Sensor XML Sensor [xml]
+INFO: Sensor XML Sensor [xml] (done) | time=280ms
+INFO: Sensor Python Squid Sensor [python]
+INFO: Sensor Python Squid Sensor [python] (done) | time=192ms
+INFO: Sensor PythonXUnitSensor [python]
+INFO: Sensor PythonXUnitSensor [python] (done) | time=40ms
+INFO: Sensor PHP sensor [php]
+INFO: 12 source files to be analyzed
+INFO: 12/12 source files have been analyzed
+INFO: No PHPUnit test report provided (see 'sonar.php.tests.reportPath' property)
+INFO: No PHPUnit coverage reports provided (see 'sonar.php.coverage.reportPaths' property)
+INFO: Sensor PHP sensor [php] (done) | time=1378ms
+INFO: Sensor Analyzer for "php.ini" files [php]
+INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=16ms
+INFO: Sensor CFamily [cpp]
+INFO: Available processors: 4
+INFO: Using 1 thread for analysis according to value of "sonar.cfamily.threads" property.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc11u68/chip/inc/dma_11u6x.h at line 304 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc11u68/chip/inc/rom_dma_11u6x.h at line 111 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc11u68/chip/inc/usbd/usbd.h at line 411 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc1769/chip/inc/usbd/usbd.h at line 411 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc4337_m0/chip/inc/usbd/usbd.h at line 412 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc4337_m4/chip/inc/usbd/usbd.h at line 412 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc4337_m4/sapi/src/sapi_convert.c at line 55 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c at line 55 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc54102_m0/chip/inc/dma_5410x.h at line 356 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc54102_m0/chip/inc/pll_5410x.h at line 171 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc54102_m4/chip/inc/dma_5410x.h at line 356 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/modules/lpc54102_m4/chip/inc/pll_5410x.h at line 171 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/sapi_examples/edu-ciaa-nxp/operating_systems/coperative/seos_Pont2014_01/src/cooperative_os_scheduler_03_seos_Pont2014.c at line 43 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/sapi_examples/edu-ciaa-nxp/operating_systems/coperative/seos_pont_02_microwave/src/main.c at line 94 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/sapi_examples/edu-ciaa-nxp/operating_systems/freeRTOS/freeRTOS_01_blinky/src/freeRTOS_blinky.c at line 72 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN: Invalid character encountered in file /home/tito/git/firmware_v2/sapi_examples/edu-ciaa-nxp/operating_systems/freeRTOS/freeRTOS_03_ChanFatFS_SPI_SdCard_ADC_log/src/freeRTOS_ChanFatFS_SPI_SdCard_ADC_log.c at line 111 for encoding UTF-8. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO: Using build-wrapper output: /home/tito/git/firmware_v2/bw-output/build-wrapper-dump.json
+INFO: 32 compilation units analyzed
+INFO: 47 compilation units analyzed
+INFO: PCH: 0 + 0 + 0 , 3016 - 0 - 0 - 0
+INFO: FS: 7621 lookups
+INFO: PPH: 82 files, 512611 bytes, 2557 hits, 2639 queries
+INFO: Sensor CFamily [cpp] (done) | time=18483ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=217ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=0ms
+INFO: SCM provider for this project is: git
+INFO: 1488 files to be analyzed
+INFO: 1488/1488 files analyzed
+INFO: 148 files had no CPD blocks
+INFO: Calculating CPD for 1339 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 1835ms, dir size=21 MB
+INFO: Analysis reports compressed in 2310ms, zip size=7 MB
+INFO: Analysis report uploaded in 40269ms
+INFO: ANALYSIS SUCCESSFUL, you can browse https://sonarcloud.io/dashboard/index/ciaa_firmwarev2_r020_rcompany
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at https://sonarcloud.io/api/ce/task?id=AWJfxcKxV4Tcj4EG2qeW
+INFO: Task total time: 1:58.124 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 32:35.302s
+INFO: Final Memory: 42M/867M
+INFO: ------------------------------------------------------------------------
+
